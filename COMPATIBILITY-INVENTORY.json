@@ -1,338 +1,255 @@
 {
-  "schema": "community-compatibility-inventory-v1",
-  "final_license_applied": false,
-  "blocker": "Owner rights and AGPL exact-file confirmation outstanding",
-  "standard_library_runtime": "Not vendored or redistributed",
+  "schema": "community-compatibility-inventory-v2",
+  "copyright": "Deception Check, Inc.",
+  "license": "AGPL-3.0-only",
+  "runtime_dependencies": "Python 3.11+ standard library only; not vendored or redistributed",
+  "third_party_files": 0,
   "files": [
     {
       "file": ".env.example",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": ".gitattributes",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": ".gitignore",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "ALLOWLIST.json",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "COMPATIBILITY-INVENTORY.json",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "DEPENDENCIES.md",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "DEPENDENCY-GRAPH.json",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
-      "file": "LICENSE-STATUS.md",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "file": "LICENSE",
+      "origin": "Free Software Foundation license text, unmodified",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0 license text (FSF; verbatim copying permitted)"
+    },
+    {
+      "file": "LIMITATIONS.md",
+      "origin": "first-party, written for the Community edition",
+      "third_party_vendored": false,
+      "license": "AGPL-3.0-only"
+    },
+    {
+      "file": "NOTICE.md",
+      "origin": "first-party, written for the Community edition",
+      "third_party_vendored": false,
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "README.md",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
+    },
+    {
+      "file": "SECURITY.md",
+      "origin": "first-party, written for the Community edition",
+      "third_party_vendored": false,
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "THIRD-PARTY-NOTICES.md",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/__init__.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/assets/console.css",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/assets/console.html",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/assets/console.js",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/events.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/hmi.py",
-      "origin": "extracted first-party implementation or test",
-      "upstream_file": "decoy_web/pages.py",
-      "unmodified_extraction": true,
-      "same_logic_with_only_eol_normalization": true,
+      "origin": "first-party, carried unchanged from the parent Pump Station Zero project (line endings normalized)",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/report.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/server.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/session.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "community/wire.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "decoy_modbus/__init__.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "decoy_modbus/register_map.py",
-      "origin": "extracted first-party implementation or test",
-      "upstream_file": "decoy_modbus/register_map.py",
-      "unmodified_extraction": true,
-      "same_logic_with_only_eol_normalization": true,
+      "origin": "first-party, carried unchanged from the parent Pump Station Zero project (line endings normalized)",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "decoy_modbus/server.py",
-      "origin": "extracted first-party implementation or test",
-      "upstream_file": "decoy_modbus/server.py",
-      "unmodified_extraction": true,
-      "same_logic_with_only_eol_normalization": true,
+      "origin": "first-party, carried unchanged from the parent Pump Station Zero project (line endings normalized)",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "samples/community-desktop.png",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "samples/community-mobile.png",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "samples/controlled-report.html",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "samples/controlled-report.json",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
+    },
+    {
+      "file": "scripts/install_check.py",
+      "origin": "first-party, written for the Community edition",
+      "third_party_vendored": false,
+      "license": "AGPL-3.0-only"
+    },
+    {
+      "file": "scripts/run.ps1",
+      "origin": "first-party, written for the Community edition",
+      "third_party_vendored": false,
+      "license": "AGPL-3.0-only"
+    },
+    {
+      "file": "scripts/run.sh",
+      "origin": "first-party, written for the Community edition",
+      "third_party_vendored": false,
+      "license": "AGPL-3.0-only"
+    },
+    {
+      "file": "scripts/test.ps1",
+      "origin": "first-party, written for the Community edition",
+      "third_party_vendored": false,
+      "license": "AGPL-3.0-only"
+    },
+    {
+      "file": "scripts/test.sh",
+      "origin": "first-party, written for the Community edition",
+      "third_party_vendored": false,
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "sim/__init__.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "sim/station.py",
-      "origin": "extracted first-party implementation or test",
-      "upstream_file": "sim/station.py",
-      "unmodified_extraction": true,
-      "same_logic_with_only_eol_normalization": true,
+      "origin": "first-party, carried unchanged from the parent Pump Station Zero project (line endings normalized)",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "tests/__init__.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "tests/test_community.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "tests/test_offline.py",
-      "origin": "new first-party Community source, documentation or synthetic sample",
-      "upstream_file": null,
-      "unmodified_extraction": false,
-      "same_logic_with_only_eol_normalization": false,
+      "origin": "first-party, written for the Community edition",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     },
     {
       "file": "tests/test_sim.py",
-      "origin": "extracted first-party implementation or test",
-      "upstream_file": "tests/test_sim.py",
-      "unmodified_extraction": true,
-      "same_logic_with_only_eol_normalization": true,
+      "origin": "first-party, carried unchanged from the parent Pump Station Zero project (line endings normalized)",
       "third_party_vendored": false,
-      "proposed_license": "AGPL-3.0-only",
-      "decision": "Owner exact-file rights and license confirmation pending; no final grant applied"
+      "license": "AGPL-3.0-only"
     }
   ]
 }

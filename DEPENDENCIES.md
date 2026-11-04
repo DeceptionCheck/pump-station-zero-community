@@ -19,4 +19,4 @@ community.server
   community/assets/console.js
 ```
 
-There is no import of the full analyst, brain, application runtime, operator wall, private mount or adjacent checkout. There is no optional intelligence interface that ordinary installation must discover or satisfy. No package performs a model download or a remote HTTP request. The only client sockets are the fixed request/readback to this process's own loopback Modbus listener and the browser's same-origin HTTP requests. The offline acceptance suite exercises the actual journey with non-loopback socket connections denied.
+There is no import of any module outside this directory other than the Python standard library. There is no optional intelligence interface that ordinary installation must discover or satisfy. No package performs a model download or a remote HTTP request. The only client sockets are the fixed request/readback to this process's own loopback Modbus listener and the browser's same-origin HTTP requests. The offline acceptance suite exercises the actual journey with non-loopback socket connections denied.
