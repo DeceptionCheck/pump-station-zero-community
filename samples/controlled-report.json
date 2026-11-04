@@ -1,0 +1,137 @@
+{
+  "schema": "community-report-v1",
+  "encounter_id": "b110f11d0a32b7e37e8dbbedb4ed42c7",
+  "generated_utc": "2026-11-03T23:17:41.190998+00:00",
+  "source": "deterministic",
+  "title": "Remote stop observed in the practice station",
+  "summary": "The fixed command stopped the simulated Pump 2. A separate connection read its command bit back as off.",
+  "why_it_matters": "Equipment commands can interrupt a process. A decoy lets a team inspect that interaction without connecting real equipment.",
+  "next_action": "Check whether the activity was an approved test. Share the saved request and reply with the person responsible for the system.",
+  "counts": {
+    "retained_events": 5,
+    "write_attempts": 2,
+    "rejected_writes": 1
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "ts": "2026-11-03T23:17:41.142426+00:00",
+      "surface": "scenario",
+      "reason": "fixed scenario readied"
+    },
+    {
+      "event_id": "2",
+      "ts": "2026-11-03T23:17:41.148734+00:00",
+      "surface": "scenario",
+      "reason": "fixed scenario readied"
+    },
+    {
+      "event_id": "3",
+      "ts": "2026-11-03T23:17:41.170316+00:00",
+      "surface": "modbus",
+      "reason": "ok",
+      "modbus": {
+        "unit_id": 1,
+        "function_code": 5,
+        "address": 1,
+        "quantity": 1,
+        "exception_code": null,
+        "values": [
+          0
+        ]
+      }
+    },
+    {
+      "event_id": "4",
+      "ts": "2026-11-03T23:17:41.186210+00:00",
+      "surface": "modbus",
+      "reason": "ok",
+      "modbus": {
+        "unit_id": 1,
+        "function_code": 1,
+        "address": 1,
+        "quantity": 1,
+        "exception_code": null,
+        "values": []
+      }
+    },
+    {
+      "event_id": "5",
+      "ts": "2026-11-03T23:17:41.188922+00:00",
+      "surface": "modbus",
+      "reason": "out_of_band",
+      "modbus": {
+        "unit_id": 1,
+        "function_code": 16,
+        "address": 0,
+        "quantity": 2,
+        "exception_code": 3,
+        "values": [
+          280,
+          270
+        ]
+      }
+    }
+  ],
+  "station_snapshot": {
+    "sp_tank_start_ft": 28.0,
+    "sp_tank_stop_ft": 36.0,
+    "sp_low_tank_alarm_ft": 15.0,
+    "sp_high_tank_alarm_ft": 38.0,
+    "sp_high_discharge_alarm_psi": 95.0,
+    "sp_low_suction_trip_psi": 20.0,
+    "sp_low_suction_alarm_psi": 25.0,
+    "tank_level_ft": 24.00297253587751,
+    "suction_psi": 50,
+    "flow_gpm": 665.6651939080218,
+    "chlorine_mg_l": 1.103719541252884,
+    "lead_pump": 1,
+    "remote_command_active": true,
+    "alarm_ack": false,
+    "pump1_cmd": true,
+    "pump1_running": true,
+    "pump1_fault": false,
+    "pump1_run_hours": 0.0008333333333333333,
+    "pump2_cmd": false,
+    "pump2_running": false,
+    "pump2_fault": false,
+    "pump2_run_hours": 0.0005555555555555556,
+    "discharge_psi": 74.18771917354847,
+    "sim_time": 1793747864.1402905,
+    "suction_trip_latched": false,
+    "alarms": [],
+    "pump1_display": "RUNNING",
+    "pump2_display": "STOPPED (remote command)",
+    "remote_indications": [
+      {
+        "tag": "pump2_remote_stop",
+        "description": "PUMP 2 STOPPED, remote command",
+        "priority": "P1",
+        "raised_at": 1793747864.1402905,
+        "acked": false,
+        "active": true,
+        "origin": "hmi_state_indication"
+      }
+    ]
+  },
+  "protocol_receipt": {
+    "write_function": 5,
+    "address": 1,
+    "written_value": 0,
+    "write_reply_hex": "0500010000",
+    "read_function": 1,
+    "read_reply_hex": "010100",
+    "independent_read_connection": true,
+    "off_bit_confirmed": true,
+    "controlled_before_running": true,
+    "controlled_after_running": false,
+    "utc": "2026-11-03T23:17:41.186210+00:00"
+  },
+  "limits": {
+    "synthetic": true,
+    "earlier_events_dropped": 0,
+    "no_real_equipment": true,
+    "no_actor_attribution": true,
+    "report_not_sent_externally": true
+  }
+}

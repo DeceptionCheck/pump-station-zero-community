@@ -1,0 +1,123 @@
+{
+  "schema": "community-import-graph-v1",
+  "python_imports": {
+    "community/__init__.py": [],
+    "community/events.py": [
+      "collections",
+      "copy",
+      "datetime",
+      "threading"
+    ],
+    "community/hmi.py": [
+      "collections",
+      "datetime",
+      "html",
+      "threading"
+    ],
+    "community/report.py": [
+      "copy",
+      "datetime",
+      "html",
+      "json",
+      "secrets"
+    ],
+    "community/server.py": [
+      "argparse",
+      "community",
+      "community.hmi",
+      "community.report",
+      "community.session",
+      "decoy_modbus.register_map",
+      "http.cookies",
+      "http.server",
+      "json",
+      "pathlib",
+      "secrets",
+      "socket",
+      "socketserver",
+      "threading",
+      "time",
+      "urllib.parse"
+    ],
+    "community/session.py": [
+      "asyncio",
+      "collections",
+      "community",
+      "community.events",
+      "community.hmi",
+      "community.report",
+      "community.wire",
+      "copy",
+      "datetime",
+      "decoy_modbus.server",
+      "secrets",
+      "sim.station",
+      "threading",
+      "time"
+    ],
+    "community/wire.py": [
+      "socket",
+      "struct",
+      "time"
+    ],
+    "decoy_modbus/__init__.py": [],
+    "decoy_modbus/register_map.py": [
+      "argparse",
+      "dataclasses"
+    ],
+    "decoy_modbus/server.py": [
+      "asyncio",
+      "decoy_modbus.register_map",
+      "struct",
+      "time"
+    ],
+    "sim/__init__.py": [],
+    "sim/station.py": [
+      "math",
+      "random",
+      "threading",
+      "time",
+      "typing"
+    ],
+    "tests/__init__.py": [],
+    "tests/test_community.py": [
+      "community",
+      "community.events",
+      "community.server",
+      "community.session",
+      "contextlib",
+      "copy",
+      "http.client",
+      "json",
+      "socket",
+      "struct",
+      "threading",
+      "time",
+      "unittest"
+    ],
+    "tests/test_offline.py": [
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "unittest"
+    ],
+    "tests/test_sim.py": [
+      "inspect",
+      "math",
+      "sim.station",
+      "threading",
+      "unittest"
+    ]
+  },
+  "runtime_roots": [
+    "community.server"
+  ],
+  "nonstdlib_roots": [
+    "community",
+    "decoy_modbus",
+    "sim"
+  ],
+  "missing_imports": [],
+  "private_fallback_imports": []
+}
