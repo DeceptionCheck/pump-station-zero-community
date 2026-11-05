@@ -17,7 +17,7 @@ Built for the Meta Global AI Developer Hackathon, November 2026, by Deception Ch
 
 **Meta tooling in the full demonstration.** Muse Glimmer supplies constrained decoy wording on four response kinds; Meta Llama writes the operator brief from recorded facts; Meta Voice Transcribe takes spoken questions. In every mode the application controls routes, status codes, and station state, and a validator replaces any model output that fails its contract with deterministic content. Built with Llama.
 
-**What is withheld.** The qualified prompt pack, the guardrail and adversarial corpora, the qualification policy, and the private receipts are withheld pending an intellectual-property review. This Community edition ships the deterministic station without the model path; the hosted demo and the video show the model path running.
+**What is withheld.** The qualified prompt pack, the guardrail and adversarial corpora, the qualification policy, and the private receipts are withheld pending an intellectual-property review. This Community edition ships the deterministic station without the model path; the video shows the model path (Meta Llama writing the operator brief, and Muse Glimmer's local typed-error results); the hosted demo runs the deterministic path with model and voice disabled, and installed acceptance of the Glimmer path is pending.
 
 ## What is in this repository
 
