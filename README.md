@@ -1,23 +1,42 @@
 # Pump Station Zero Community
 
-Stop a simulated pump, watch its equipment display change, and follow the actual command into a saved report. This is a local practice tool for understanding an industrial decoy. A decoy is a safe copy that records interactions; no real water equipment is connected.
+**A local practice decoy for a small water booster station.** Stop a simulated pump, watch the equipment display change, follow the actual Modbus command and its independent readback into a saved report. A decoy is a safe copy that records interactions; no real water equipment is connected, and everything runs on your own computer with Python alone.
 
-It contains a pump and tank simulator, a finite Modbus TCP server, an industrial HMI, a simple operator console and a deterministic timeline and report. Everything runs on your own computer with Python alone.
+Built for the Meta Global AI Developer Hackathon, November 2026, by Deception Check, Inc.
 
-## Community edition and the full demonstration
+## Hackathon submission
 
-Pump Station Zero also exists as a full demonstration, recorded and hosted by Deception Check. The two are separate.
+| | |
+|---|---|
+| Demo video | https://youtu.be/c8zRYXETCEo |
+| Hosted demo, limited-time judge access, DEMO banner | https://meta.deceptioncheck.ai |
+| Research report, DecoyBench and the model program | https://meta.deceptioncheck.ai/research/DecoyBench-Report.html |
+| Benchmark harness (MIT) | https://github.com/DeceptionCheck/decoybench |
+| Build timeline, 28 October to 4 November | [docs/BUILD-TIMELINE.md](docs/BUILD-TIMELINE.md) |
+| Two alternate harness implementations (MIT) | https://github.com/DeceptionCheck/decoybench-alt-a and https://github.com/DeceptionCheck/decoybench-alt-b |
 
-| | Community edition (this repository) | Full demonstration |
-| --- | --- | --- |
-| Simulator, Modbus server, HMI | Yes | Yes |
-| Operator view | Simple console | Full operator wall |
-| Timeline and report | Deterministic rules | Deterministic report plus a model-assisted analyst, checked by a verifier |
-| AI models, prompts, voice | None | Yes |
+**Meta tooling in the full demonstration.** Muse Glimmer supplies constrained decoy wording on four response kinds; Meta Llama writes the operator brief from recorded facts; Meta Voice Transcribe takes spoken questions. In every mode the application controls routes, status codes, and station state, and a validator replaces any model output that fails its contract with deterministic content. Built with Llama.
+
+**What is withheld.** The qualified prompt pack, the guardrail and adversarial corpora, the qualification policy, and the private receipts are withheld pending an intellectual-property review. This Community edition ships the deterministic station without the model path; the hosted demo and the video show the model path running.
+
+## What is in this repository
+
+| Component | Here | Full demonstration |
+|---|---|---|
+| Pump and tank simulator with interlocks, atomic writes, and hard stops | Yes | Yes |
+| Finite Modbus TCP server with device identification, exception codes, and a documented register map | Yes | Yes |
+| Industrial HMI (overview, pumps, alarms) | Yes | Yes |
+| Operator view | Simple console | Full operator wall and phone card |
+| Timeline and report | Deterministic rules | Deterministic report plus a model-assisted brief, checked by a verifier |
+| AI models, prompts, voice | None | Muse Glimmer, Meta Llama, Meta Voice Transcribe |
 | Where it runs | Your computer, loopback only | Deception Check's private hosting |
 | Source | This repository, [AGPL-3.0-only](LICENSE) | Proprietary; not included here |
 
 Using or watching the full demonstration does not license its source.
+
+## Why a decoy
+
+Water and wastewater utilities run on controllers and remote-access boxes that were built to be reached. The joint CISA, EPA, and FBI fact sheet of February 2024 lists eight actions a water system can take; a decoy is how a two-operator utility finds out whether the others are holding. In September 2026 CISA published its first standalone guidance on cyber decoys for critical infrastructure, with a water utility as its worked scenario. NIST SP 800-53 Rev. 5 SC-26 names the control. The report linked above has the sources.
 
 ## Run it
 
@@ -82,3 +101,5 @@ They are not human usability testing or production qualification.
 ## License
 
 Copyright (C) 2026 Deception Check, Inc. Licensed under the GNU Affero General Public License, version 3 only (AGPL-3.0-only). See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md). No trademark or logo rights are granted. DecoyBench, the neutral benchmark, is a separate project under the MIT license and is not part of this repository.
+
+Deception Check, Pump Station Zero, and DecoyBench are names of Deception Check, Inc.; no trademark rights are granted. Patent pending: United States provisional applications filed in 2026 by Deception Check, Inc.
